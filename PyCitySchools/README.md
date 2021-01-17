@@ -101,11 +101,11 @@ The final report includes each of the following:
 ## Observations
    
 Based on the PyCitySchools script the following obervations were determined:
-    - Observation 1: Based on the Top Performing Schools (By % Overall Passing), the top 5 performing schools are all charter schools with less than 2300 students, passing rates in math, reading and overall passing rates great than 90%
-    - Observation 2: Based on the Bottom Performing Schools (By % Overall Passing) the lowest 5 performaing schools have more than 2,900 total students, have a greater passing rate in math as compared to reading, and have overall passing rates near 50%, 40% lower than the top 5 performing schools.
-    - Observation 3:Based on the Math Scores By Grade, average math grades appear to be be consistent across the 9-12 grade levels at each of the respective schools, meaning that math performace is influenced by the school which the student attends and is constant across grades.
-    - Observation 4: Based on Scores by School Spending, overall passing rates appear to decrease as the per sudent budget increases, meaning that spending more money per student does not necessarily mean that the student will perform better on standardized testing.
-    - Observation 5: Based on the Scores by School Size, schools with more than 2000 students see a drastic (nealry 32%) decrease in overall passing rates as compared to medium and smaller schools
+- Observation 1: Based on the Top Performing Schools (By % Overall Passing), the top 5 performing schools are all charter schools with less than 2300 students, passing rates in math, reading and overall passing rates great than 90%
+- Observation 2: Based on the Bottom Performing Schools (By % Overall Passing) the lowest 5 performaing schools have more than 2,900 total students, have a greater passing rate in math as compared to reading, and have overall passing rates near 50%, 40% lower than the top 5 performing schools.
+- Observation 3:Based on the Math Scores By Grade, average math grades appear to be be consistent across the 9-12 grade levels at each of the respective schools, meaning that math performace is influenced by the school which the student attends and is constant across grades.
+- Observation 4: Based on Scores by School Spending, overall passing rates appear to decrease as the per sudent budget increases, meaning that spending more money per student does not necessarily mean that the student will perform better on standardized testing.
+- Observation 5: Based on the Scores by School Size, schools with more than 2000 students see a drastic (nealry 32%) decrease in overall passing rates as compared to medium and smaller schools
 
 ## Recommendation
 
