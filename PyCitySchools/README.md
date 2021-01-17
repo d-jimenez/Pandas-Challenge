@@ -1,123 +1,112 @@
-# Pandas Homework - Pandas, Pandas, Pandas
+# **Python-Challenge: PyCitySchools**
 
-## Background
+## Overview
+As the Chief Data Scientist for your city's school district, you are tasked with making recommendation to the school board and mayor regarding future school budgets and priorities.
 
-The data dive continues!
+The big focus will be on the district-wide standardized test results from which the recommendations will be based on. The main sources of data will be key information on each of the schools that the students attend **schools_complete.csv** and test result information for each student **students_complete.csv**. In order to properly analyze the data, you must first combine the information and draw key conclusions based on the analysis.
 
-Now, it's time to take what you've learned about Python Pandas and apply it to new situations. For this assignment, you'll need to complete **one of two** (not both)  Data Challenges. Once again, which challenge you take on is your choice. Just be sure to give it your all -- as the skills you hone will become powerful tools in your data analytics tool belt.
+## File Structure
 
-### Before You Begin
+The **PyCitySchools** folder has the following structure:
 
-1. Create a new repository for this project called `pandas-challenge`. **Do not add this homework to an existing repository**.
+PyCitySchools:
+- Resources
+    - schools_complete.csv
+    - students_complete.csv
+- PyCitySchools_main.ipynb
 
-2. Clone the new repository to your computer.
+## Running the Script
 
-3. Inside your local git repository, create a directory for the Pandas Challenge you choose. Use folder names corresponding to the challenges: **HeroesOfPymoli** or  **PyCitySchools**.
+1. Verify that the folder and file structure being used on your local directory matches that of the outlined file structure.
 
-4. Add your Jupyter notebook to this folder. This will be the main script to run for analysis.
+2. Open local machine Terminal/GitBash
 
-5. Push the above changes to GitHub or GitLab.
+3. Navigate to the appropriate **PyCity** directory where all of the folders and files are stored. 
 
-## Option 2: PyCitySchools
+4. Input the **jupyter notebook** command and execute in order to bring up the jupyter notebook online computational tool.
 
-![Education](Images/education.png)
+## Output
 
-Well done! Having spent years analyzing financial records for big banks, you've finally scratched your idealistic itch and joined the education sector. In your latest role, you've become the Chief Data Scientist for your city's school district. In this capacity, you'll be helping the  school board and mayor make strategic decisions regarding future school budgets and priorities.
-
-As a first task, you've been asked to analyze the district-wide standardized test results. You'll be given access to every student's math and reading scores, as well as various information on the schools they attend. Your responsibility is to aggregate the data to and showcase obvious trends in school performance.
-
-Your final report should include each of the following:
+The final report includes each of the following:
 
 ### District Summary
 
-* Create a high level snapshot (in table form) of the district's key metrics, including:
-  * Total Schools
-  * Total Students
-  * Total Budget
-  * Average Math Score
-  * Average Reading Score
-  * % Passing Math (The percentage of students that passed math.)
-  * % Passing Reading (The percentage of students that passed reading.)
-  * % Overall Passing (The percentage of students that passed math **and** reading.)
+- A high level snapshot (in table form) of the district's key metrics, including:
+  - Total Schools
+  - Total Students
+  - Total Budget
+  - Average Math Score
+  - Average Reading Score
+  - % Passing Math (The percentage of students that passed math.)
+  - % Passing Reading (The percentage of students that passed reading.)
+  - % Overall Passing (The percentage of students that passed math **and** reading.)
 
 ### School Summary
 
-* Create an overview table that summarizes key metrics about each school, including:
-  * School Name
-  * School Type
-  * Total Students
-  * Total School Budget
-  * Per Student Budget
-  * Average Math Score
-  * Average Reading Score
-  * % Passing Math (The percentage of students that passed math.)
-  * % Passing Reading (The percentage of students that passed reading.)
-  * % Overall Passing (The percentage of students that passed math **and** reading.)
+- An overview table that summarizes key metrics about each school, including:
+  - School Name
+  - School Type
+  - Total Students
+  - Total School Budget
+  - Per Student Budget
+  - Average Math Score
+  - Average Reading Score
+  - % Passing Math (The percentage of students that passed math.)
+  - % Passing Reading (The percentage of students that passed reading.)
+  - % Overall Passing (The percentage of students that passed math **and** reading.)
 
 ### Top Performing Schools (By % Overall Passing)
 
-* Create a table that highlights the top 5 performing schools based on % Overall Passing. Include:
-  * School Name
-  * School Type
-  * Total Students
-  * Total School Budget
-  * Per Student Budget
-  * Average Math Score
-  * Average Reading Score
-  * % Passing Math (The percentage of students that passed math.)
-  * % Passing Reading (The percentage of students that passed reading.)
-  * % Overall Passing (The percentage of students that passed math **and** reading.)
+- A table that highlights the top 5 performing schools based on % Overall Passing. Include:
+  - School Name
+  - School Type
+  - Total Students
+  - Total School Budget
+  - Per Student Budget
+  - Average Math Score
+  - Average Reading Score
+  - % Passing Math (The percentage of students that passed math.)
+  - % Passing Reading (The percentage of students that passed reading.)
+  - % Overall Passing (The percentage of students that passed math **and** reading.)
 
 ### Bottom Performing Schools (By % Overall Passing)
 
-* Create a table that highlights the bottom 5 performing schools based on % Overall Passing. Include all of the same metrics as above.
+- A table that highlights the bottom 5 performing schools based on % Overall Passing. Include all of the same metrics as above.
 
 ### Math Scores by Grade\*\*
 
-* Create a table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+- A table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
 
 ### Reading Scores by Grade
 
-* Create a table that lists the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+- A table that lists the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
 
 ### Scores by School Spending
 
-* Create a table that breaks down school performances based on average Spending Ranges (Per Student). Use 4 reasonable bins to group school spending. Include in the table each of the following:
-  * Average Math Score
-  * Average Reading Score
-  * % Passing Math (The percentage of students that passed math.)
-  * % Passing Reading (The percentage of students that passed reading.)
-  * % Overall Passing (The percentage of students that passed math **and** reading.)
+- A table that breaks down school performances based on average Spending Ranges (Per Student). Use 4 reasonable bins to group school spending. Include in the table each of the following:
+  - Average Math Score
+  - Average Reading Score
+  - % Passing Math (The percentage of students that passed math.)
+  - % Passing Reading (The percentage of students that passed reading.)
+  - % Overall Passing (The percentage of students that passed math **and** reading.)
 
 ### Scores by School Size
 
-* Repeat the above breakdown, but this time group schools based on a reasonable approximation of school size (Small, Medium, Large).
+- Repeat the above breakdown, but this time group schools based on a reasonable approximation of school size (Small, Medium, Large).
 
 ### Scores by School Type
 
-* Repeat the above breakdown, but this time group schools based on school type (Charter vs. District).
+- Repeat the above breakdown, but this time group schools based on school type (Charter vs. District).
+    
+## Observations
+   
+Based on the PyCitySchools script the following obervations were determined:
+    - Observation 1: Based on the Top Performing Schools (By % Overall Passing), the top 5 performing schools are all charter schools with less than 2300 students, passing rates in math, reading and overall passing rates great than 90%
+    - Observation 2: Based on the Bottom Performing Schools (By % Overall Passing) the lowest 5 performaing schools have more than 2,900 total students, have a greater passing rate in math as compared to reading, and have overall passing rates near 50%, 40% lower than the top 5 performing schools.
+    - Observation 3:Based on the Math Scores By Grade, average math grades appear to be be consistent across the 9-12 grade levels at each of the respective schools, meaning that math performace is influenced by the school which the student attends and is constant across grades.
+    - Observation 4: Based on Scores by School Spending, overall passing rates appear to decrease as the per sudent budget increases, meaning that spending more money per student does not necessarily mean that the student will perform better on standardized testing.
+    - Observation 5: Based on the Scores by School Size, schools with more than 2000 students see a drastic (nealry 32%) decrease in overall passing rates as compared to medium and smaller schools
 
-As final considerations:
+## Recommendation
 
-* Use the pandas library and Jupyter Notebook.
-* You must submit a link to your Github/Git Lab repo that contains your Jupyter Notebook.
-* You must include a written description of at least two observable trends based on the data.
-* See [Example Solution](PyCitySchools/PyCitySchools_starter.ipynb) for a reference on the expected format.
-
-## Hints and Considerations
-
-* These are challenging activities for a number of reasons. For one, these activities will require you to analyze thousands of records. Hacking through the data to look for obvious trends in Excel is just not a feasible option. The size of the data may seem daunting, but pandas will allow you to efficiently parse through it.
-
-* Second, these activities will also challenge you by requiring you to learn on your feet. Don't fool yourself into thinking: "I need to study pandas more closely before diving in." Get the basic gist of the library and then _immediately_ get to work. When facing a daunting task, it's easy to think: "I'm just not ready to tackle it yet." But that's the surest way to never succeed. Learning to program requires one to constantly tinker, experiment, and learn on the fly. You are doing exactly the _right_ thing, if you find yourself constantly practicing Google-Fu and diving into documentation. There is just no way (or reason) to try and memorize it all. Online references are available for you to use when you need them. So use them!
-
-* Take each of these tasks one at a time. Begin your work, answering the basic questions: "How do I import the data?" "How do I convert the data into a DataFrame?" "How do I build the first table?" Don't get intimidated by the number of asks. Many of them are repetitive in nature with just a few tweaks. Be persistent and creative!
-
-* Expect these exercises to take time! Don't get discouraged if you find yourself spending  hours initially with little progress. Force yourself to deal with the discomfort of not knowing and forge ahead. Consider these hours an investment in your future!
-
-* As always, feel encouraged to work in groups and get help from your TAs and Instructor. Just remember, true success comes from mastery and _not_ a completed homework assignment. So challenge yourself to truly succeed!
-
-* Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
-
-### Copyright
-
-Trilogy Education Services © 2019. All Rights Reserved.
+Based on the PyCitySchools analysis, smaller school sizes, rather than larger per student budgets, appear to have a greater positive impact on standardized testing performance. A student is able to receive more focused attention in smaller school sizes, leading to better tes performance.
